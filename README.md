@@ -5,7 +5,7 @@
 
 # 訂房網站 - 白邸
 
-- Demo：https://boomga-liu.github.io/Hotel_Project/#/
+- Demo：https://boomga-liu.github.io/Hotel_Project/
 - 設計稿：[Bobo](https://challenge.thef2e.com/user/2043?schedule=3877#works-3877)
 
 ## 專案說明
