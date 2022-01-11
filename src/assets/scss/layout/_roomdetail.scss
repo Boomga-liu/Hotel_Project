@@ -1,0 +1,56 @@
+.room-detail {
+  .icon-list li {
+    @include media-breakpoint-up(md) {
+      flex-grow: 1;
+    }
+    @include media-breakpoint-down(md) {
+      &:first-child {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+    }
+    @include media-breakpoint-up(md) {
+      p {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    span {
+      margin-left: 0.25rem;
+    }
+  }
+  .amenities {
+    height: 65%;
+    span {
+      display: flex;
+      align-items: center;
+      margin-bottom: 2px;
+    }
+    i {
+      margin-right: 3px;
+    }
+  }
+
+  .line {
+    background-color: #aaa;
+    position: relative;
+    bottom: 5.5rem;
+    left: 0;
+    height: 1.5px;
+    width: 100%;
+  }
+
+  .white-outline-bg {
+    position: relative;
+    width: 125px;
+    height: 58px;
+    border-radius: 0.3rem;
+  }
+  .white-outline {
+    position: absolute;
+    top: 8%;
+    left: 4.3%;
+  }
+}

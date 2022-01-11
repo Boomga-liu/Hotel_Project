@@ -1,0 +1,23 @@
+$variable-prefix: bs-;
+$font-family-noto-sans-tc: 'Noto Sans TC', sans-serif !default;
+$font-family-baloo-tamma-2: 'Baloo Tamma 2', cursive !default;
+
+$font-family-base: var(--#{$variable-prefix}font-noto-sans-tc) !default;
+$font-family-code: var(--#{$variable-prefix}font-baloo-tamma-2) !default;
+
+:root {
+  // Use `inspect` for lists so that quoted items keep the quotes.
+  // See https://github.com/sass/sass/issues/2383#issuecomment-336349172
+  --#{$variable-prefix}font-noto-sans-tc: #{inspect($font-family-noto-sans-tc)};
+  --#{$variable-prefix}font-baloo-tamma-2: #{inspect($font-family-baloo-tamma-2)};
+}
+
+$utilities: (
+  'font-family': (
+    property: font-family,
+    class: font,
+    values: (
+      baloo-tamma-2: var(--#{$variable-prefix}font-baloo-tamma-2),
+    ),
+  ),
+);

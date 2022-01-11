@@ -1,0 +1,30 @@
+.thumb-example {
+  width: 100%;
+  height: calc(100vh - 56px);
+}
+.swiper {
+  .swiper-slide {
+    background-size: cover;
+    background-position: center center;
+  }
+  &.gallery-top {
+    height: calc(100vh - 56px);
+    width: 100%;
+  }
+  &.gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 5px 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 20%;
+  }
+  &.gallery-thumbs .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+  &.gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,14 @@
+@import './helpers/custom';
+@import '~bootstrap/scss/functions';
+@import './helpers/variables';
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/utilities/api';
+
+@import './components/_utilities.scss';
+@import './components/_swiper.scss';
+@import './layout/_index.scss';
+@import './layout/_navbar.scss';
+@import './layout/_home.scss';
+@import './layout/_footer.scss';
+@import './layout/_roomdetail.scss';
+@import './layout/_checkout.scss';
